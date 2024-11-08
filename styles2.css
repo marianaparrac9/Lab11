@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.agenteMain{
+    /* border: solid 1px rgb(122, 118, 118); */
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+ 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.agente__imagen{
+
+    order: -1;
+}
+.textContainer{
+    /* border: solid 1px gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30%;
+    min-width: 400px;
+}

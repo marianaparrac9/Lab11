@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.agente__imagen{
+    background-color: gray;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+}
+h2{
+    margin: 1rem 0;
+}
+button{
+    margin: .7rem 0;
+    height: 2rem;
+    width: 12rem;
+}
+.agente{
+    border: solid 1px gray;
+    border-radius: 9px;
+    display: flex;
+    width: 700px;
+}
+.agente__nombre-contenedor{
+    padding: 1.5rem;
+}
+#personajes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding-top: 1rem;
+
+}
+
+.agente__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.barraBusqueda{
+    height: 2rem;
+    width: 32rem;
+    margin-top: 1rem;
+    padding: 0 .5rem;
+
+}
+.contenedorBarraBusqueda{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2rem;
+}
